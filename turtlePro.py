@@ -1,27 +1,42 @@
-
 import turtle
-
-my_wn = turtle.Screen()
-my_wn.bgcolor("black")
-my_wn.title("Turtle")
+turtle.bgcolor("pink")
 turtle.shape("turtle")
-my_pen = turtle.Turtle()
-my_pen.color("red")
+turtle.color("blue")
+turtle.fillcolor("green")
+
+turtle.forward(200)
+turtle.left(135)
+turtle.forward(150)
+turtle.left(93)
+turtle.forward(145)
+turtle.left(42)
+turtle.forward(150)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(152)
+turtle.left(180)
+turtle.forward(152)
+turtle.right(90)
+turtle.forward(70)
+turtle.right(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(60)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(30)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(180)
+turtle.forward(50)
+turtle.left(90)
+turtle.forward(30)
+turtle.left(180)
+turtle.forward(60)
 
 
-def my_sqrfunction(size):
-    for i in range(5):
-        my_pen.fd(size)
-        my_pen.right(45)
-        size = size - 5
 
-
-my_sqrfunction(146)
-my_sqrfunction(126)
-my_sqrfunction(106)
-my_sqrfunction(86)
-my_sqrfunction(66)
-my_sqrfunction(46)
-my_sqrfunction(26)
 
 turtle.done()
